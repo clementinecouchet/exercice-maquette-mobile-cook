@@ -30,12 +30,12 @@ body {
   line-height: 1.5rem;
   max-width: 320px;
   margin: auto;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: "Sorts Mill Goudy", serif;
   border: solid black 0.3px;
 }
 
 .big-font {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   line-height: 1.2;
 }
 
@@ -75,15 +75,16 @@ h2 {
 .GUY {
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .recipe-of-the-day p {
   margin: 0;
 }
 
-.block-card{
+.block-card {
   background-color: rgb(212, 212, 212);
-  padding: 5px 0 15px 0;
+  padding: 30px 0 15px 0;
   margin: 0;
 }
 
@@ -102,7 +103,7 @@ h3 {
 
 .recipe p {
   background-color: white;
-  padding: 20px 15px 20px 15px;
+  padding: 25px 15px 20px 15px;
   margin: 0;
   font-size: 20px;
   line-height: 1.2;
@@ -127,7 +128,7 @@ footer h2 {
   font-size: 20px;
 }
 
-nav { 
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
