@@ -72,6 +72,34 @@ h2 {
   padding: 3px 0;
 }
 
+.GUY {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.recipe-of-the-day p {
+  margin: 0;
+}
+
+.block-card{
+  background-color: rgb(212, 212, 212);
+  padding: 5px 0 15px 0;
+  margin: 0;
+}
+
+h3 {
+  text-align: left;
+  padding: 0 0 0 10px;
+  font-size: 20px;
+  border-bottom: solid black 1.5px;
+  margin: 0px 15px 0 15px;
+}
+
+.recipe {
+  margin: 15px;
+  border: solid black 0.2px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
