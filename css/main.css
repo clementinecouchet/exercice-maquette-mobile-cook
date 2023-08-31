@@ -9,10 +9,12 @@
 // reset rules
 // ==================================== */
 
-* {
+img {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  display: block;
+  max-width: 100%;
 }
 
 html {
@@ -26,6 +28,15 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width: 320px;
+  margin: auto;
+  font-family: 'Sorts Mill Goudy', serif;
+  border: solid black 0.3px;
+}
+
+.big-font {
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.2;
 }
 
 a {
@@ -37,6 +48,28 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+main {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  padding: 0 15px 0 15px;
+}
+
+.recipe-of-the-day {
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  margin: 15px 85px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 0;
 }
 
 /* ====================================
